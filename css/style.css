@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'montserrat', sans-serif;
+  color: #36154c;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3vh;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 8.5vh;
+  line-height: 10vh;
+  padding:0;
+}
+
+h2 {
+  font-family: 'Lora', serif;
+  text-align: left;
+  font-size: 5vh;
+  line-height: 5vh;
+  margin-top:0;
+}
+
+
+.left {
+  font-size: 2.5vh;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.intro {
+  margin-top: 5%;
+}
+
+.instruction {
+  color: #b796f7;
+  font-size: 2.5vh;
+  font-weight: 600;
+  margin-top: 15%;
+}
+
+
+.bgimg {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: 100vh;
+  background: url("../images/background.svg") no-repeat center center;
+  background-size: cover;
+  padding: 130px;
+}
+
+aside img {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  padding:0;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-left: 17%;
+  padding-right: 17%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+#landing {
+}
+
+.row {
+  border: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content:  space-around;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 45%;
+  margin-right: 10%;
+}
+
+main {
+vertical-align: middle;
+}
+
+.main {
+  flex: 45%;
+}
